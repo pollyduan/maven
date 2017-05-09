@@ -14,3 +14,6 @@ pom.xml
   </repository>
 </repositories>
 ```
+
+
+mvn deploy -DaltDeploymentRepository=pollyduan-mvn-repo::default::file:/Users/pollyduan/git/maven/
