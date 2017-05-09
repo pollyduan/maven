@@ -1,5 +1,8 @@
 # maven
 
+在pom中增加仓库
+---
+
 pom.xml
 
 ```xml
@@ -15,5 +18,13 @@ pom.xml
 </repositories>
 ```
 
+增加依赖
+---
 
-mvn deploy -DaltDeploymentRepository=pollyduan-mvn-repo::default::file:/Users/pollyduan/git/maven/
+```xml
+<dependency>
+  <groupId>com.pollyduan</groupId>
+<artifactId>common</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+</dependency>
+```
